@@ -32,7 +32,7 @@
     };
 
     trackball_listener: trackball_listener {
-        compatible = "zmk,input-listener";
+        compatible = "zmk,input_processor_xy_to_scroll";
         device = <&trackball>;
         input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT)>,
                            <&zip_xy_scaler 1 1>;
@@ -41,7 +41,7 @@
 
         scroll-layer {
             layers = <4 6 7>;
-            input-processors = <&zip_xy_to_scroll_mapper>, 
+            input-processors = <&zip_xy_to_scroll_mapper_tune>, 
                                <&zip_scroll_scaler 1 45>;
         };
     };
