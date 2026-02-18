@@ -28,7 +28,7 @@
         #input-processor-cells = <0>;
         /* 必要に応じてコメントを外して反転 */
          scroll-y-invert;
-         scroll-x-invert;
+         //scroll-x-invert;
     };
 
     trackball_listener: trackball_listener {
