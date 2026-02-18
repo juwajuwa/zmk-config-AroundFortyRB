@@ -110,8 +110,8 @@
             display-name = "Base";
             bindings = <
 &kp Q             &kp W     &kp E         &kp R      &kp T                    &kp Y        &kp U  &kp I          &kp O          &kp P
-&kp A             &kp S     &kp D         &kp F      &kp G                    &kp H        &kp J  &kp K          &kp L          &kp LEFT_BRACKET
-&mt LEFT_SHIFT Z  &kp X     &kp C         &kp V      &kp B       &kp ESC      &kp N        &kp M  &kp COMMA      &kp PERIOD     &kp QUESTION
+&kp A             &kp S     &kp D         &kp F      &kp G                    &kp H        &kp J  &kp K          &kp L          &kp MINUS
+&mt LEFT_SHIFT Z  &kp X     &kp C         &kp V      &kp B       &kp ESC      &kp N        &kp M  &kp COMMA      &kp PERIOD     &kp SLASH
 &kp LCTRL         &kp LGUI  &kp LEFT_ALT  &lt 4 TAB  &lt 1 CAPS  &lt 3 SPACE  &lt 2 ENTER  &none  &kp BACKSPACE  &kp BACKSLASH  &kp DEL
             >;
         };
