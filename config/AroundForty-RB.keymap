@@ -125,7 +125,7 @@
             display-name = "Symbols";
             bindings = <
 &kp EXCLAMATION  &kp AT_SIGN       &kp HASH  &kp DOLLAR  &kp PERCENT                &kp CARET      &kp AMPERSAND  &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp UNDERSCORE
-&trans           &kp LEFT_BRACKET  &trans    &kp COLON   &kp DOUBLE_QUOTES          &kp EQUAL      &kp PLUS       &kp RIGHT_BRACE    &kp PIPE              &trans
+&trans           &kp LEFT_BRACKET  &kp JP_PIPE    &kp COLON   &kp DOUBLE_QUOTES          &kp EQUAL      &kp PLUS       &kp RIGHT_BRACE    &kp PIPE              &trans
 &trans           &trans            &trans    &trans      &trans             &trans  &kp SEMICOLON  &kp SQT        &kp RIGHT_BRACKET  &kp BACKSLASH         &trans
 &trans           &trans            &trans    &trans      &trans             &trans  &trans         &none          &trans             &trans                &trans
             >;
