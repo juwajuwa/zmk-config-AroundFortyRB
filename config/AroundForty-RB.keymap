@@ -137,10 +137,10 @@
 
         Mouse {
             bindings = <
-&trans  &trans        &trans        &trans     &trans          &trans         &trans          &trans          &trans     &kp HOME
-&trans  &trans        &kp LG(UP)    &trans     &trans          &kp LA(RIGHT)  &mkp MB1        &kp UP_ARROW    &mkp MB2   &kp PG_UP
-&trans  &kp LG(LEFT)  &kp LG(DOWN)  &kp RIGHT  &trans  &trans  &kp LA(LEFT)   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN
-&trans  &trans        &trans        &trans     &trans  &trans  &trans         &trans          &trans          &trans     &kp END
+&trans  &trans        &trans        &trans         &trans          &trans         &trans          &trans          &trans     &kp HOME
+&trans  &trans        &kp LG(UP)    &trans         &trans          &kp LA(RIGHT)  &mkp MB1        &kp UP_ARROW    &mkp MB2   &kp PG_UP
+&trans  &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(RIGHT)  &trans  &trans  &kp LA(LEFT)   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp PAGE_DOWN
+&trans  &trans        &trans        &trans         &trans  &trans  &trans         &trans          &trans          &trans     &kp END
             >;
         };
 
